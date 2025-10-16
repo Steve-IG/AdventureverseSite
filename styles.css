@@ -322,10 +322,12 @@ footer {
         gap: 6rem;
     }
 
-    .feature-grid {
-        grid-template-columns: 1fr;
+    .feature-grid,
+    .feature-grid.reverse {
+        grid-template-columns: 1fr !important;
         grid-template-areas: "image" "content" !important;
         gap: 2rem;
+        width: 100%;
     }
 
     .feature-content {
