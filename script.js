@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, observerOptions);
 
     // Observe all feature sections
-    document.querySelectorAll('.feature-section').forEach(section => {
+    document.querySelectorAll('.feature-section, .trailer-section').forEach(section => {
         observer.observe(section);
     });
 
